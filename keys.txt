@@ -20,9 +20,9 @@ git remote rm origin; //if fetch don't work
 git remote add origin;
 git push -f origin master;
 
-git fetch; => git log origin/master => git diff origin/master => git merge origin/master;  long way~
-git merge;
-git pull; 
+git fetch origin; => git log origin/master => git diff origin/master => git merge origin/master;  long way~
+git merge origin/name;
+git pull origin; => need to mention branch => git pull origin master
 
 IMPORTANT GUIDE FOR ANY CHANGE:
 change commited => git add --all => git commit -a -m "commited new line etc.." => git push origin master;
