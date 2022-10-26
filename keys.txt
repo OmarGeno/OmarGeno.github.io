@@ -14,3 +14,8 @@ git branch name;
 git branch; list branches
 git checkout name; move to branch x
 git chechout -b name; create and move to branch name;
+
+git remote -v;
+git remote rm origin; //if fetch don't work
+git remote add origin;
+git push -f origin master;
