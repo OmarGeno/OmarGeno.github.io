@@ -20,6 +20,6 @@ git remote rm origin; //if fetch don't work
 git remote add origin;
 git push -f origin master;
 
-git fetch;
+git fetch; => git log origin/master => git diff origin/master => git merge origin/master;  long way~
 git merge;
-git pull;
+git pull; 
