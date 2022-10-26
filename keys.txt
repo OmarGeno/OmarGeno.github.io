@@ -5,7 +5,12 @@ git config --global user.email "";
 git cd;
 git status;
 git add "file";
+git ls;
 git commit -m; message
 git status --short; M D A ??; Check the compact version of the status for repository;
 git commit -a -m "text index.html create a new line";
 git log;
+git branch name;
+git branch; list branches
+git checkout name; move to branch x
+git chechout -b name; create and move to branch name;
